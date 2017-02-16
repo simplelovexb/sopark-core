@@ -719,7 +719,7 @@ public abstract class BaseServletUtil {
         ((HttpServletResponse) response).setHeader("Keep-Alive", "180");
         
         // 处理cookie跨域
-        addCrossDomainHeader(request, response);
+//        addCrossDomainHeader(request, response);
         
         try (ServletOutputStream stream = response.getOutputStream()) {
             getLocalObjMapper().writeValue(stream, result);// 减少内存copy
