@@ -78,7 +78,7 @@ public abstract class BaseServletUtil {
 
     public static int THEMEDAY_TOPIC_EXIST = -1;
     public static int COLUMN_TOPIC_EXIST = -2;
-
+    public static int USERNAME_EXISTED = -2;
     public static final String serverIp = HostInfoHelper.getHostIp();
 
     private static ThreadLocal<ObjectMapper> objMapperLocal = new ThreadLocal<>();
