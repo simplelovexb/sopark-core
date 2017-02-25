@@ -11,10 +11,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <name>Sopark core project</name>
-    <description>ME core project</description>
+    <description>Sopark core project</description>
 
     <properties>
-        <projectName>me-core</projectName>
+        <projectName>sopark-core</projectName>
 
         <jdk_ver>1.7</jdk_ver>
         <maven_ver>3.0</maven_ver>
