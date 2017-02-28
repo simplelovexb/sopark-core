@@ -49,7 +49,7 @@ public class MongoUtil {
     public static final String GEO_TYPE = "type";// Geo类型
     public static final String GEO_TYPE_POINT = "Point";// Geo点类型
     public static final String GEO_COORDINATES = "coordinates";// 经纬度（先是经度，后是纬度）
-    public static final String GEO_CENTER_SPHERE = "centerSphere";
+    public static final String GEO_CENTER_SPHERE = "$centerSphere";
 
 
     public static final String CMD_GEO_NEAR = "near";
@@ -59,7 +59,7 @@ public class MongoUtil {
     public static final String CMD_GEO_MAXDISTANCE = "maxDistance";
     public static final String CMD_GEO_MINDISTANCE = "minDistance";
     public static final String CMD_GEO_LIMIT = "limit";
-    public static final String CMD_GEO_WITHIN = "geoWithin";
+    public static final String CMD_GEO_WITHIN = "$geoWithin";
 
 
     public static final String CMD_RET_GEO_RESULTS = "results";
